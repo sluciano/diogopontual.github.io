@@ -1,0 +1,535 @@
+@font-face {
+    font-family: 'antoniobold';
+    src: url('../fonts/antonio-bold-webfont.eot');
+    src: url('../fonts/antonio-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/antonio-bold-webfont.woff') format('woff'),
+         url('../fonts/antonio-bold-webfont.ttf') format('truetype'),
+         url('../fonts/antonio-bold-webfont.svg#antoniobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'antoniolight';
+    src: url('../fonts/antonio-light-webfont.eot');
+    src: url('../fonts/antonio-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/antonio-light-webfont.woff') format('woff'),
+         url('../fonts/antonio-light-webfont.ttf') format('truetype'),
+         url('../fonts/antonio-light-webfont.svg#antoniolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'antonioregular';
+    src: url('../fonts/antonio-regular-webfont.eot');
+    src: url('../fonts/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/antonio-regular-webfont.woff') format('woff'),
+         url('../fonts/antonio-regular-webfont.ttf') format('truetype'),
+         url('../fonts/antonio-regular-webfont.svg#antonioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sansationbold';
+    src: url('../fonts/sansation-bold-webfont.eot');
+    src: url('../fonts/sansation-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sansation-bold-webfont.woff') format('woff'),
+         url('../fonts/sansation-bold-webfont.ttf') format('truetype'),
+         url('../fonts/sansation-bold-webfont.svg#sansationbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansation_lightlight';
+    src: url('../fonts/sansation-light-webfont.eot');
+    src: url('../fonts/sansation-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sansation-light-webfont.woff') format('woff'),
+         url('../fonts/sansation-light-webfont.ttf') format('truetype'),
+         url('../fonts/sansation-light-webfont.svg#sansation_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansationregular';
+    src: url('../fonts/sansation-regular-webfont.eot');
+    src: url('../fonts/sansation-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sansation-regular-webfont.woff') format('woff'),
+         url('../fonts/sansation-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sansation-regular-webfont.svg#sansationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    vertical-align: middle;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.footer-container{
+    border-top: 1px solid black;
+}
+
+.header-container,
+.footer-container{
+    background: #F5F5F5;
+}
+
+.title {
+    color: #444456;
+    font-size: 4em;
+    margin-top: 46px;
+    font-family: antoniobold, Helvetica,'Trebuchet MS',sans-serif;
+    font-weight: normal;
+    text-shadow: 1px -1px 10px #BBB;
+}
+
+article{
+    padding-right: 50px;
+    border-right: 1px dotted #CACACA;
+}
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: black;
+    background: #EEE9E9;
+    border-radius: 15px;
+}
+
+aside a{
+    color: #FF4422;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+aside h2{
+    font-family: sansationregular;
+    font-size: 1.2em;
+    color: #767676;
+}
+
+.article-tags a, aside a{
+    color: #FF4422;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.article-tags a: hover, aside a:hover{
+    color: #cc0000;    
+}
+
+
+nav a:hover{
+    color: #EE2C2C;
+}
+
+nav a:hover {
+/*    text-decoration: underline; */
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article header {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 1px dotted #CACACA;    
+}
+
+.article-date {
+    font-weight: bolder;
+    font-size: 0.8em;    
+}
+
+
+.main article h1 {
+    font-family: sansationregular;
+    color: #565656;
+    font-size: 1.5em;
+    margin-bottom: 0;
+
+}
+
+.main aside {
+    color: black;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: black;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        font-family: sans-serif;
+        font-size: 1.2em;
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 45px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container{
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        font-family: Helvetica;
+        float: left;
+        width: 57%;
+        color: #777;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
